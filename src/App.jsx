@@ -1146,10 +1146,6 @@ const CHUNKS = [
 const STORAGE_KEY = "toeic-linking-v4";
 const SESSION_SIZE = 10;
 
-// ── Supabase credentials (hardcoded for Vercel deployment) ─
-const SUPA_URL = "https://ruenjdczklrczrqojivq.supabase.co";
-const SUPA_KEY = "YOUR_ANON_KEY_HERE";  // ← ここにLegacy anon keyを貼る
-
 const RULE_COLORS = {
   "flap T + 母音":"#F59E0B","flap T（d→ら行）":"#F59E0B",
   "子音+母音リンキング":"#6366F1","母音+母音リンキング":"#EC4899",
